@@ -68,7 +68,7 @@ img{
     z-index: 2;
 }
 
-a{
+.nav-menu-direc{
     background: transparent;
     border: none;
     list-style: none;
@@ -92,9 +92,15 @@ a{
     cursor: pointer;
 }
 
-a:hover{
+.nav-menu-direc:hover{
     color:var(--dark-moderate);
     transition: color 0.5s;
+}
+
+#icon-menu_img{
+    position: relative;
+    left: 21%;
+    bottom: 39px;
 }
 
 .header-presentacion{
@@ -177,6 +183,11 @@ a:hover{
     left: 54%;
 }
 
+/*
+#nav-manu.img{
+    position: absolute;
+}
+*/
 
 .section-Acerca_de_mí{
     margin: 20px 0 20px;
@@ -185,6 +196,10 @@ a:hover{
     width: 100%;
     height: 50%;
     align-items: center;
+}
+
+.Acerca_d_mi_cont{
+    margin-bottom: 1.5rem;
 }
 
 .article-Acerca_de_mí--titule{
@@ -261,7 +276,7 @@ a:hover{
     background-color: var(--white); 
 }
 
-::-webkit-scrollbar {
+    ::-webkit-scrollbar {
     width: 5px;
   }
   
@@ -280,6 +295,7 @@ a:hover{
     width: 25vh;
     height: 30vh;
     padding: 1.5rem;
+    font-size: 14px;
 }
 
 .section-article-title{
@@ -504,3 +520,16 @@ a:hover{
     font-size: 20px;
     padding: 1rem;
 }
+
+
+.link-de-contacto{
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.link-de-contacto:hover{
+    color: var(--dark-desaturated);
+}
+
